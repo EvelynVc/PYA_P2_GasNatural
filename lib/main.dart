@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         "/inicio": (BuildContext context) => Inicio(),
         "/gasNatural": (BuildContext context) => Gasnatural(),
-        "/servico": (BuildContext context) => Servicio(),
+        "/servicio": (BuildContext context) => Servicio(),
         "/contacto": (BuildContext context) => Contacto(),
       }, //fin de rutas
       home: Inicio(),
