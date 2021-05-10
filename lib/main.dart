@@ -34,6 +34,7 @@ class Gasnatural extends StatelessWidget {
       ), //fin de AppBar
       body: Center(
         child: Text("Empresa: Gas Natural"),
+        backgroundColor: Colors.indigo[900],
       ), //fin de body center
     ); //fin de Scaffold
   } //fin de widget
