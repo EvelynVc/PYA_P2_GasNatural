@@ -29,7 +29,7 @@ class Gasnatural extends StatelessWidget {
     return new Scaffold(
       appBar: AppBar(
         title: new Text('Gas Natural'),
-        backgroundColor: Colors.blueGrey[100],
+        backgroundColor: Colors.green,
         //cambia color xd .............
       ), //fin de AppBar
       body: Center(
