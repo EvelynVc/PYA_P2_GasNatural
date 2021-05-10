@@ -111,13 +111,13 @@ class Inicio extends StatelessWidget {
                         color: Colors.white,
                         shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                         onPressed: () {
-                          Navigator.pushNamed(context, "/empresa");
+                          Navigator.pushNamed(context, "/gasNatural");
                         },
                         child: SizedBox(
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("EMPRESA", textAlign: TextAlign.center),
+                            child: Text("GAS NATURAL", textAlign: TextAlign.center),
                           ),
                         ),
                       ),
@@ -137,13 +137,13 @@ class Inicio extends StatelessWidget {
                         color: Colors.white,
                         shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                         onPressed: () {
-                          Navigator.pushNamed(context, "/productos");
+                          Navigator.pushNamed(context, "/servicio");
                         },
                         child: SizedBox(
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("PRODUCTOS", textAlign: TextAlign.center),
+                            child: Text("SERVICIO", textAlign: TextAlign.center),
                           ),
                         ),
                       ),
