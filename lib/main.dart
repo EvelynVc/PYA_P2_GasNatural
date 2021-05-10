@@ -118,7 +118,13 @@ class Inicio extends StatelessWidget {
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("GAS NATURAL", textAlign: TextAlign.center),
+                            child: Text("GAS NATURAL",
+                             textAlign: TextAlign.center
+                             style:TextStyle(
+                             fontSize:20,
+                             color:Colors.red
+                             ),
+                             ),
                           ),
                         ),
                       ),
@@ -180,3 +186,6 @@ class Inicio extends StatelessWidget {
     ); //fin de scaffold
   } //fin de widget
 } //fin de clase inicio
+
+
+
