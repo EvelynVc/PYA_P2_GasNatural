@@ -6,6 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Gas Naural',
       theme: ThemeData(
         primarySwatch: Colors.yellow,
@@ -77,8 +78,45 @@ class Inicio extends StatelessWidget {
       body: Container(
         padding: EdgeInsets.only(top: 130, bottom: 10, right: 10, left: 10), //fin de padding
         decoration: BoxDecoration(
-          color: Colors.blueGrey,
+          color: Colors.blueGrey[50],
           image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/llama.jpg"), alignment: Alignment.topCenter),
+          child: Column(
+            children: <Widget>[
+              Row(
+                mainAxisAlignment:MainAxisAlignment.center,
+                Column(
+                  children <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.amber,
+                        shape: new RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),//fin de rounded
+                        onPressed: (){
+                          Navigator.pushNamed(context,"/inicio"):
+                        }//fin de onpressed
+                        child:SizedBox(
+                        width: 100,
+                        height: 100,
+                        child: Center(
+                            child: Text(
+                              'INICIO',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                              color: Coolors.red,
+                              fontWeight: FontWeight.w900
+                              ),//fin de TextStyle
+                            ),//fin de text
+                          ),//fin de center
+                        ),//fin de sizedbox
+                      ),//boton inicio
+                    )//fin de padding
+                  ]//fin de widget
+                ),//fin de columun
+              ),//fin de fila
+            ]//fin de widget
+          ),//fin de column child
         ), //fin de box decoration
       ), //fin de body center
     ); //fin de scaffold
