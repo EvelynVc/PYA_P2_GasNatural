@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Gas Naural',
       theme: ThemeData(
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.blueGrey,
       ), //fin de tema
       //ruta de ventanas
       routes: <String, WidgetBuilder>{
@@ -77,7 +77,7 @@ class Inicio extends StatelessWidget {
     return new Scaffold(
       body: Container(
         padding: EdgeInsets.only(top: 130, bottom: 10, right: 10, left: 10),
-        decoration: BoxDecoration(color: Colors.blueGrey, image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/Luhhii/mis_imagenes/main/MicrosoftTeams-image.png"), alignment: Alignment.topCenter)),
+        decoration: BoxDecoration(color: Colors.blueGrey[50], image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/Luhhii/mis_imagenes/main/MicrosoftTeams-image.png"), alignment: Alignment.topCenter)),
         child: Column(
           children: <Widget>[
             Row(
