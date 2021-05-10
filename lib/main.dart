@@ -87,7 +87,7 @@ class Inicio extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(10),
                     child: RaisedButton(
-                      color: Colors.white,
+                      color: Colors.amber,
                       shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                       onPressed: () {
                         Navigator.pushNamed(context, "/inicio");
@@ -142,7 +142,7 @@ class Inicio extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(10),
                       child: RaisedButton(
-                        color: Colors.white,
+                        color: Colors.amber,
                         shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                         onPressed: () {
                           Navigator.pushNamed(context, "/servicio");
@@ -151,7 +151,11 @@ class Inicio extends StatelessWidget {
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("SERVICIO", textAlign: TextAlign.center),
+                            child: Text(
+                              "SERVICIO",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 18, color: Colors.indigo[900]),
+                            ),
                           ),
                         ),
                       ),
@@ -163,7 +167,7 @@ class Inicio extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(10),
                       child: RaisedButton(
-                        color: Colors.white,
+                        color: Colors.amber,
                         shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                         onPressed: () {
                           Navigator.pushNamed(context, "/contacto");
@@ -172,7 +176,11 @@ class Inicio extends StatelessWidget {
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("CONTACTO", textAlign: TextAlign.center),
+                            child: Text(
+                              "CONTACTO",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 18, color: Colors.indigo[900]),
+                            ),
                           ),
                         ),
                       ),
