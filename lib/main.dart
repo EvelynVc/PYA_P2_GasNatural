@@ -77,7 +77,7 @@ class Inicio extends StatelessWidget {
     return new Scaffold(
       body: Container(
         padding: EdgeInsets.only(top: 130, bottom: 10, right: 10, left: 10),
-        decoration: BoxDecoration(color: Colors.blueGrey[50], image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/Luhhii/mis_imagenes/main/MicrosoftTeams-image.png"), alignment: Alignment.topCenter)),
+        decoration: BoxDecoration(color: Colors.blueGrey[50], image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/gas_natural.jpg"), alignment: Alignment.topCenter)),
         child: Column(
           children: <Widget>[
             Row(
