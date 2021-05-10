@@ -120,7 +120,7 @@ class Inicio extends StatelessWidget {
                             child: Text(
                               "GAS NATURAL",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 20, color: Colors.indigo[900]),
+                              style: TextStyle(fontSize: 15, color: Colors.indigo[900]),
                             ),
                           ),
                         ),
