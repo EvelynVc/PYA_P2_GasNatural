@@ -34,7 +34,6 @@ class Gasnatural extends StatelessWidget {
       ), //fin de AppBar
       body: Center(
         child: Text("Empresa: Gas Natural"),
-        
       ), //fin de body center
     ); //fin de Scaffold
   } //fin de widget
@@ -118,13 +117,11 @@ class Inicio extends StatelessWidget {
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("GAS NATURAL",
-                             textAlign: TextAlign.center
-                             style:TextStyle(
-                             fontSize:20,
-                             color:Colors.red
-                             ),
-                             ),
+                            child: Text(
+                              "GAS NATURAL",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 20, color: Colors.red),
+                            ),
                           ),
                         ),
                       ),
@@ -186,6 +183,3 @@ class Inicio extends StatelessWidget {
     ); //fin de scaffold
   } //fin de widget
 } //fin de clase inicio
-
-
-
